@@ -5,4 +5,6 @@ A dashboard that users will see upon login in that displays their account inform
 ### Features allow users to:
 
 - Select 1 of 9 users to sign in as
-  - all with different account infor
+  - all with different account information
+- Switch between 1 of 9 users at any time
+- Filter by acc
