@@ -7,4 +7,7 @@ A dashboard that users will see upon login in that displays their account inform
 - Select 1 of 9 users to sign in as
   - all with different account information
 - Switch between 1 of 9 users at any time
-- Filter by acc
+- Filter by account number
+- Filter by keyword search
+- Filter by date range
+- View a line
