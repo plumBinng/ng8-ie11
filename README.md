@@ -10,4 +10,5 @@ A dashboard that users will see upon login in that displays their account inform
 - Filter by account number
 - Filter by keyword search
 - Filter by date range
-- View a line
+- View a line chart that shows the total balance history
+- View all transaction
