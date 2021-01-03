@@ -12,4 +12,7 @@ A dashboard that users will see upon login in that displays their account inform
 - Filter by date range
 - View a line chart that shows the total balance history
 - View all transactions that can be sorted by (ascending or descending):
-  - dat
+  - date posted
+  - transaction amount
+  - category
+  - transaction ty
