@@ -20,4 +20,12 @@ A dashboard that users will see upon login in that displays their account inform
 
 ## Installation
 
-Simply install by the com
+Simply install by the command below:
+
+```bash
+npm install
+```
+
+## Available Scripts
+
+In the project director
