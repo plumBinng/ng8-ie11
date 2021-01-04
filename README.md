@@ -15,4 +15,9 @@ A dashboard that users will see upon login in that displays their account inform
   - date posted
   - transaction amount
   - category
-  - transaction ty
+  - transaction type
+  - category
+
+## Installation
+
+Simply install by the com
