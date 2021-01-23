@@ -28,4 +28,10 @@ npm install
 
 ## Available Scripts
 
-In the project director
+In the project directory, you can run:
+
+```bash
+npm start
+```
+
+Runs the app in the deve
