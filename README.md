@@ -55,4 +55,4 @@ Launches the test runner in the interactive watch mode.<br>
   - Enzyme
   - Chai
 
-This project was
+This project was bootstrapped with [Create React App](https://github.com/facebook/creat
