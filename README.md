@@ -57,4 +57,6 @@ Launches the test runner in the interactive watch mode.<br>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Additional Features, Ideas and Considerations to Wor
+## Additional Features, Ideas and Considerations to Work On with Additional Time
+
+- incorporating React Router if there we
