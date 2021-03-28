@@ -50,4 +50,9 @@ Launches the test runner in the interactive watch mode.<br>
 - Chart.js
   - react-chartjs-2
 - Bootstrap
-  - r
+  - react-bootstrap
+- Testing:
+  - Enzyme
+  - Chai
+
+This project was
