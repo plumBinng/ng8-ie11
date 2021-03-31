@@ -60,4 +60,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Additional Features, Ideas and Considerations to Work On with Additional Time
 
 - incorporating React Router if there were more pages than one dashboard view
-- store transactions in a persistent database
+- store transactions in a persistent database instead of storing all these transactions on local state
+  - or stor
