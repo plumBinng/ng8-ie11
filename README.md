@@ -61,4 +61,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - incorporating React Router if there were more pages than one dashboard view
 - store transactions in a persistent database instead of storing all these transactions on local state
-  - or storing it in a hash table for better access and scalabili
+  - or storing it in a hash table for better access and scalability
+  - if many transactions, only pull a number of transa
