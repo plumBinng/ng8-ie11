@@ -63,4 +63,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - store transactions in a persistent database instead of storing all these transactions on local state
   - or storing it in a hash table for better access and scalability
   - if many transactions, only pull a number of transactions to display at a time that user can select for
-  - create 
+  - create pages with this specified number of transactions (ex. thousands of transact
