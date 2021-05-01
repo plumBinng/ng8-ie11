@@ -64,4 +64,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - or storing it in a hash table for better access and scalability
   - if many transactions, only pull a number of transactions to display at a time that user can select for
   - create pages with this specified number of transactions (ex. thousands of transactions over years)
-  - possibly incorporate redux for state manag
+  - possibly incorporate redux for state management for scaling
+- optimize all array methods that may not 
