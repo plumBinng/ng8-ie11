@@ -66,4 +66,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - create pages with this specified number of transactions (ex. thousands of transactions over years)
   - possibly incorporate redux for state management for scaling
 - optimize all array methods that may not be most optimal for big O
-- break components up into as pure of
+- break components up into as pure of components as possible and pure functions
+- avoid accessing data by access
