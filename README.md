@@ -70,4 +70,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - avoid accessing data by accessing nested objects that may error out if we are asking for a property but there is no matching property in the chain
   - similar to the Law of Demeter
 - write more detailed tests
-  - add Full DOM renderin
+  - add Full DOM rendering tests
+- create more media breakpoints to mak
