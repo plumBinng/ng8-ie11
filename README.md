@@ -68,4 +68,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - optimize all array methods that may not be most optimal for big O
 - break components up into as pure of components as possible and pure functions
 - avoid accessing data by accessing nested objects that may error out if we are asking for a property but there is no matching property in the chain
-  - similar to 
+  - similar to the Law of Demeter
+- write more detailed tests
+  - add Full DOM renderin
