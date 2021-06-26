@@ -71,4 +71,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - similar to the Law of Demeter
 - write more detailed tests
   - add Full DOM rendering tests
-- create more media breakpoints to mak
+- create more media breakpoints to make it more responsive and test on more device sizes
+- create a cust
