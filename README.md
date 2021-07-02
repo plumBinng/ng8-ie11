@@ -74,4 +74,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - create more media breakpoints to make it more responsive and test on more device sizes
 - create a custom error picture page to handle errors
 - customize CSS and UI better, possibly using Bootstrap instead of just react-bootstrap for more control over styling
-  - make css selectors and rules more 
+  - make css selectors and rules more purposeful and condensed
+  - regulate css class selecto
