@@ -75,4 +75,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - create a custom error picture page to handle errors
 - customize CSS and UI better, possibly using Bootstrap instead of just react-bootstrap for more control over styling
   - make css selectors and rules more purposeful and condensed
-  - regulate css class selecto
+  - regulate css class selector naming
+- run build for production
+- deploy app
+- int
