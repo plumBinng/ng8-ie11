@@ -78,4 +78,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - regulate css class selector naming
 - run build for production
 - deploy app
-- int
+- integrate CI/CD
+- set up webpack with more files
