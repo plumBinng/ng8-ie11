@@ -1,2 +1,6 @@
 {
-  "name": "front-end-technical-chall
+  "name": "front-end-technical-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+ 
