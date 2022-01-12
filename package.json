@@ -9,4 +9,5 @@
     "chart.js": "^2.8.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "react
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.
