@@ -31,4 +31,7 @@ class App extends React.Component {
       totalBalance: 0,
       searchTerm: '',
       filteredTransactions: [],
-      filteredRangeFro
+      filteredRangeFrom: '',
+      filteredRangeTo: '',
+      noResults: false,
+      chart
