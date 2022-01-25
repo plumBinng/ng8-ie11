@@ -29,4 +29,6 @@ class App extends React.Component {
       selectedAccount: 'all accounts',
       transactions: [],
       totalBalance: 0,
-      searc
+      searchTerm: '',
+      filteredTransactions: [],
+      filteredRangeFro
