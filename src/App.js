@@ -21,4 +21,7 @@ import {Container, Row} from 'react-bootstrap'
 
 class App extends React.Component {
   constructor(props) {
-   
+    super(props)
+    this.state = {
+      userId: 0,
+      allTransactions: 
