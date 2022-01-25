@@ -24,4 +24,6 @@ class App extends React.Component {
     super(props)
     this.state = {
       userId: 0,
-      allTransactions: 
+      allTransactions: [],
+      accounts: new Set(),
+      selectedAccount: 'all accou
