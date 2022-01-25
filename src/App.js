@@ -15,4 +15,6 @@ import {
   DisplayRange,
   DisplayAll,
   Transactions
-} fr
+} from './Components'
+
+import {Container, Row} from 'react-bootstra
