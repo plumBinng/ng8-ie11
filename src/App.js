@@ -26,4 +26,7 @@ class App extends React.Component {
       userId: 0,
       allTransactions: [],
       accounts: new Set(),
-      selectedAccount: 'all accou
+      selectedAccount: 'all accounts',
+      transactions: [],
+      totalBalance: 0,
+      searc
