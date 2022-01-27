@@ -44,4 +44,5 @@ class App extends React.Component {
     this.sortBy = this.sortBy.bind(this)
     this.handleAccountNumberInput = this.handleAccountNumberInput.bind(this)
     this.handleSortInput = this.handleSortInput.bind(this)
-    this.handleSubm
+    this.handleSubmitTime = this.handleSubmitTime.bind(this)
+    thi
