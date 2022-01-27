@@ -40,4 +40,5 @@ class App extends React.Component {
     this.getTransactions = this.getTransactions.bind(this)
     this.sortByDateAsc = this.sortByDateAsc.bind(this)
     this.initializeAccounts = this.initializeAccounts.bind(this)
-    this.acco
+    this.accountsData = this.accountsData.bind(this)
+    this.sortBy
