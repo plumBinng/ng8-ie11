@@ -34,4 +34,7 @@ class App extends React.Component {
       filteredRangeFrom: '',
       filteredRangeTo: '',
       noResults: false,
-      chart
+      chartTransactions: []
+    }
+    this.getUserId = this.getUserId.bind(this)
+    this.ge
