@@ -37,4 +37,5 @@ class App extends React.Component {
       chartTransactions: []
     }
     this.getUserId = this.getUserId.bind(this)
-    this.ge
+    this.getTransactions = this.getTransactions.bind(this)
+    this.sortBy
