@@ -43,4 +43,5 @@ class App extends React.Component {
     this.accountsData = this.accountsData.bind(this)
     this.sortBy = this.sortBy.bind(this)
     this.handleAccountNumberInput = this.handleAccountNumberInput.bind(this)
-    th
+    this.handleSortInput = this.handleSortInput.bind(this)
+    this.handleSubm
