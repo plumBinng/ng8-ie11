@@ -45,4 +45,5 @@ class App extends React.Component {
     this.handleAccountNumberInput = this.handleAccountNumberInput.bind(this)
     this.handleSortInput = this.handleSortInput.bind(this)
     this.handleSubmitTime = this.handleSubmitTime.bind(this)
-    thi
+    this.resetTransactions = this.resetTransactions.bind(this)
+    this
