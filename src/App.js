@@ -46,4 +46,4 @@ class App extends React.Component {
     this.handleSortInput = this.handleSortInput.bind(this)
     this.handleSubmitTime = this.handleSubmitTime.bind(this)
     this.resetTransactions = this.resetTransactions.bind(this)
-    this
+    this.convertUnixToDate = this.convertUnixToDate.bind(thi
