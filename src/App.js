@@ -47,4 +47,5 @@ class App extends React.Component {
     this.handleSubmitTime = this.handleSubmitTime.bind(this)
     this.resetTransactions = this.resetTransactions.bind(this)
     this.convertUnixToDate = this.convertUnixToDate.bind(this)
-    this.handleSearchChange = this.handleSearchChange.bind(t
+    this.handleSearchChange = this.handleSearchChange.bind(this)
+    this.handleSearchSubmit = this.handleSearchSubm
