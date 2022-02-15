@@ -48,4 +48,9 @@ class App extends React.Component {
     this.resetTransactions = this.resetTransactions.bind(this)
     this.convertUnixToDate = this.convertUnixToDate.bind(this)
     this.handleSearchChange = this.handleSearchChange.bind(this)
-    this.handleSearchSubmit = this.handleSearchSubm
+    this.handleSearchSubmit = this.handleSearchSubmit.bind(this)
+  }
+
+  getUserId(event) {
+    this.setState({
+      use
