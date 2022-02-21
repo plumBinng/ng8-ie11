@@ -53,4 +53,7 @@ class App extends React.Component {
 
   getUserId(event) {
     this.setState({
-      use
+      userId: event.target.value,
+      noResults: false
+    })
+    if 
