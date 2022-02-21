@@ -56,4 +56,5 @@ class App extends React.Component {
       userId: event.target.value,
       noResults: false
     })
-    if 
+    if (this.state.filteredTransactions.length) {
+      this.
