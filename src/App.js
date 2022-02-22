@@ -57,4 +57,8 @@ class App extends React.Component {
       noResults: false
     })
     if (this.state.filteredTransactions.length) {
-      this.
+      this.setState({
+        filteredTransactions: []
+      })
+    }
+    
