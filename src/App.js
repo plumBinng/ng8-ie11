@@ -66,4 +66,6 @@ class App extends React.Component {
 
   async getTransactions(num) {
     let results = await axios.get(
-      `http://tech-challenge.d
+      `http://tech-challenge.d3ucrjz23k.us-east-1.elasticbeanstalk.com/transactions/${num}`
+    )
+    this
