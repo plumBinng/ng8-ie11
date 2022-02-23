@@ -65,4 +65,5 @@ class App extends React.Component {
   }
 
   async getTransactions(num) {
-    
+    let results = await axios.get(
+      `http://tech-challenge.d
