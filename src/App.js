@@ -61,4 +61,8 @@ class App extends React.Component {
         filteredTransactions: []
       })
     }
+    this.getTransactions(event.target.value)
+  }
+
+  async getTransactions(num) {
     
