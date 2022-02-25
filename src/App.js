@@ -68,4 +68,8 @@ class App extends React.Component {
     let results = await axios.get(
       `http://tech-challenge.d3ucrjz23k.us-east-1.elasticbeanstalk.com/transactions/${num}`
     )
-    this
+    this.sortByDateAsc(results.data)
+    return results.data
+  }
+
+  sortByD
