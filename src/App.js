@@ -86,4 +86,6 @@ class App extends React.Component {
     for (let i = this.state.allTransactions.length - 1; i >= 0; i--) {
       let transaction = this.state.allTransactions[i]
       if (
-        transac
+        transaction['type'] === 'Wire In' ||
+        transaction['type'] === 'ACH In'
+   
