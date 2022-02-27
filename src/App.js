@@ -75,4 +75,10 @@ class App extends React.Component {
   sortByDateAsc(transactions) {
     let sorted = transactions.sort((a, b) => a.date - b.date)
     this.setState({
-      allTransactions: so
+      allTransactions: sorted
+    })
+    this.initializeAccounts()
+    return sorted
+  }
+
+  initializeAc
