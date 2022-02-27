@@ -81,4 +81,6 @@ class App extends React.Component {
     return sorted
   }
 
-  initializeAc
+  initializeAccounts() {
+    let newAccounts = new Set()
+    for (let i = this.st
