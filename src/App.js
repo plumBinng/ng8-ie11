@@ -84,4 +84,6 @@ class App extends React.Component {
   initializeAccounts() {
     let newAccounts = new Set()
     for (let i = this.state.allTransactions.length - 1; i >= 0; i--) {
-      let 
+      let transaction = this.state.allTransactions[i]
+      if (
+        transac
