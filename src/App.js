@@ -72,4 +72,5 @@ class App extends React.Component {
     return results.data
   }
 
-  sortByD
+  sortByDateAsc(transactions) {
+    let sorted = transactions.sort((a, b) =
