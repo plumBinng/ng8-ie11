@@ -88,4 +88,5 @@ class App extends React.Component {
       if (
         transaction['type'] === 'Wire In' ||
         transaction['type'] === 'ACH In'
-   
+      ) {
+        if (!newAccounts.has([transaction['be
