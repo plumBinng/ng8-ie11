@@ -93,4 +93,6 @@ class App extends React.Component {
           let accountNum = transaction['beneficiary_account']
           newAccounts.add(accountNum)
         }
-      
+      } else if (
+        transaction['type'] === 'Wire Out' ||
+        
