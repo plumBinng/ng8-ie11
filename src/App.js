@@ -90,4 +90,7 @@ class App extends React.Component {
         transaction['type'] === 'ACH In'
       ) {
         if (!newAccounts.has([transaction['beneficiary_account']])) {
-          let accountNum = transaction[
+          let accountNum = transaction['beneficiary_account']
+          newAccounts.add(accountNum)
+        }
+      
