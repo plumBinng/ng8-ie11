@@ -95,4 +95,6 @@ class App extends React.Component {
         }
       } else if (
         transaction['type'] === 'Wire Out' ||
-        
+        transaction['type'] === 'ACH Out'
+      ) {
+        if (!ne
