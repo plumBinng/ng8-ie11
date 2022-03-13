@@ -99,4 +99,7 @@ class App extends React.Component {
       ) {
         if (!newAccounts.has([transaction['origin_account']])) {
           let accountNum = transaction['origin_account']
-          newAccounts
+          newAccounts.add(accountNum)
+        }
+      } else {
+        if (!newA
