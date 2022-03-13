@@ -98,4 +98,5 @@ class App extends React.Component {
         transaction['type'] === 'ACH Out'
       ) {
         if (!newAccounts.has([transaction['origin_account']])) {
-          l
+          let accountNum = transaction['origin_account']
+          newAccounts
