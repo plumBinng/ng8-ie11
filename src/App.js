@@ -97,4 +97,5 @@ class App extends React.Component {
         transaction['type'] === 'Wire Out' ||
         transaction['type'] === 'ACH Out'
       ) {
-        if (!ne
+        if (!newAccounts.has([transaction['origin_account']])) {
+          l
