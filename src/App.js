@@ -112,4 +112,7 @@ class App extends React.Component {
         }
       }
     }
-    this.setState({accounts: newAccou
+    this.setState({accounts: newAccounts})
+    this.accountsData()
+    return newAccounts
+ 
