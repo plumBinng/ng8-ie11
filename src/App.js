@@ -106,4 +106,5 @@ class App extends React.Component {
           let accountNumBeneficiary = transaction['beneficiary_account']
           newAccounts.add(accountNumBeneficiary)
         }
-        if (!newAccounts.has([transac
+        if (!newAccounts.has([transaction['origin_account']])) {
+          let accountNumOrigin = tr
