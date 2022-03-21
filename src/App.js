@@ -115,4 +115,8 @@ class App extends React.Component {
     this.setState({accounts: newAccounts})
     this.accountsData()
     return newAccounts
- 
+  }
+
+  accountsData(account) {
+    let arr = []
+    let newBa
