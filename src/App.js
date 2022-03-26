@@ -120,4 +120,5 @@ class App extends React.Component {
   accountsData(account) {
     let arr = []
     let newBalance = this.state.totalBalance
-    for (let i = 0; i < this.state.allTr
+    for (let i = 0; i < this.state.allTransactions.length; i++) {
+      let transaction = this.state.allTransacti
