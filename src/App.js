@@ -124,4 +124,5 @@ class App extends React.Component {
       let transaction = this.state.allTransactions[i]
       if (
         account === undefined ||
-  
+        account === 'all accounts' ||
+        transaction.origin_
