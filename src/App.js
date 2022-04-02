@@ -129,4 +129,6 @@ class App extends React.Component {
         transaction.beneficiary_account === account
       ) {
         if (
-          transaction['type'] === 'Wi
+          transaction['type'] === 'Wire In' ||
+          transaction['type'] === 'ACH In'
+        ) {
