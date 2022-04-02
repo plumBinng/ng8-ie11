@@ -132,3 +132,5 @@ class App extends React.Component {
           transaction['type'] === 'Wire In' ||
           transaction['type'] === 'ACH In'
         ) {
+          newBalance = newBalance + transaction.amount
+        } 
