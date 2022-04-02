@@ -133,4 +133,6 @@ class App extends React.Component {
           transaction['type'] === 'ACH In'
         ) {
           newBalance = newBalance + transaction.amount
-        } 
+        } else if (
+          transaction['type'] === 'Wire Out' ||
+  
