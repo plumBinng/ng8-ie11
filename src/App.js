@@ -126,4 +126,7 @@ class App extends React.Component {
         account === undefined ||
         account === 'all accounts' ||
         transaction.origin_account === account ||
-        transaction.beneficiary_account === accoun
+        transaction.beneficiary_account === account
+      ) {
+        if (
+          transaction['type'] === 'Wi
