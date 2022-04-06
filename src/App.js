@@ -137,4 +137,5 @@ class App extends React.Component {
           transaction['type'] === 'Wire Out' ||
           transaction['type'] === 'ACH Out'
         ) {
-          newBal
+          newBalance = newBalance - transaction.amount
+          transaction.am
