@@ -138,4 +138,6 @@ class App extends React.Component {
           transaction['type'] === 'ACH Out'
         ) {
           newBalance = newBalance - transaction.amount
-          transaction.am
+          transaction.amount = -1 * transaction.amount
+        } else {
+          if (transa
