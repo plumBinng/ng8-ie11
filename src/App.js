@@ -143,4 +143,5 @@ class App extends React.Component {
           if (transaction.origin_account === account) {
             newBalance = newBalance - transaction.amount
             transaction.amount = -1 * transaction.amount
-          } else if (transaction.benef
+          } else if (transaction.beneficiary_account === account) {
+            newBalance = newB
