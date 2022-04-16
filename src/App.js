@@ -147,4 +147,7 @@ class App extends React.Component {
             newBalance = newBalance + transaction.amount
           }
         }
-    
+        arr.push({
+          id: transaction.id,
+          balance: newBalance,
+ 
