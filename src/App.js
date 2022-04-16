@@ -151,4 +151,6 @@ class App extends React.Component {
           id: transaction.id,
           balance: newBalance,
           date: transaction.date,
-          amount: transaction.am
+          amount: transaction.amount,
+          type: transaction.type,
+          descript
