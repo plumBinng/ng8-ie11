@@ -150,4 +150,5 @@ class App extends React.Component {
         arr.push({
           id: transaction.id,
           balance: newBalance,
- 
+          date: transaction.date,
+          amount: transaction.am
