@@ -153,4 +153,5 @@ class App extends React.Component {
           date: transaction.date,
           amount: transaction.amount,
           type: transaction.type,
-          descript
+          description: transaction.description,
+          origin_account: transaction.or
