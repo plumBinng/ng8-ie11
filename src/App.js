@@ -157,4 +157,8 @@ class App extends React.Component {
           origin_account: transaction.origin_account,
           beneficiary_account: transaction.beneficiary_account,
           category: transaction.category,
-          displayDa
+          displayDate: this.convertUnixToDate(transaction.date)
+        })
+      }
+    }
+    a
