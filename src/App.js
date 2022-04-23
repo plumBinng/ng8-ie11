@@ -161,4 +161,5 @@ class App extends React.Component {
         })
       }
     }
-    a
+    arr = arr.reverse()
+    this.setState({transactions: arr, chartTrans
