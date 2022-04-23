@@ -164,4 +164,8 @@ class App extends React.Component {
     arr = arr.reverse()
     this.setState({transactions: arr, chartTransactions: arr})
     if (account !== undefined) {
-      this.setS
+      this.setState({
+        selectedAccount: account
+      })
+    } else {
+      this.setSta
