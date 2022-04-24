@@ -168,4 +168,7 @@ class App extends React.Component {
         selectedAccount: account
       })
     } else {
-      this.setSta
+      this.setState({
+        selectedAccount: 'all accounts'
+      })
+    }
