@@ -178,4 +178,6 @@ class App extends React.Component {
   sortBy(event) {
     let copy
     if (this.state.filteredTransactions.length) {
-      copy = JSON.parse(JSON.stringif
+      copy = JSON.parse(JSON.stringify([...this.state.filteredTransactions]))
+    } else {
+      copy 
