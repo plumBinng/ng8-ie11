@@ -172,3 +172,9 @@ class App extends React.Component {
         selectedAccount: 'all accounts'
       })
     }
+    return arr
+  }
+
+  sortBy(event) {
+    let copy
+    if (th
