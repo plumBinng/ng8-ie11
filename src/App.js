@@ -180,4 +180,4 @@ class App extends React.Component {
     if (this.state.filteredTransactions.length) {
       copy = JSON.parse(JSON.stringify([...this.state.filteredTransactions]))
     } else {
-      copy 
+      copy = JSON.parse(JSON.stringify([...this.state.transacti
