@@ -180,4 +180,8 @@ class App extends React.Component {
     if (this.state.filteredTransactions.length) {
       copy = JSON.parse(JSON.stringify([...this.state.filteredTransactions]))
     } else {
-      copy = JSON.parse(JSON.stringify([...this.state.transacti
+      copy = JSON.parse(JSON.stringify([...this.state.transactions]))
+    }
+    switch (event) {
+      case 'dateAsc':
+  
