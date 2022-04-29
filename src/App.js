@@ -184,4 +184,5 @@ class App extends React.Component {
     }
     switch (event) {
       case 'dateAsc':
-  
+        copy.sort((a, b) => a.date - b.date)
+   
