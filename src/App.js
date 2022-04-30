@@ -190,4 +190,6 @@ class App extends React.Component {
         copy.sort((a, b) => b.date - a.date)
         break
       case 'amountDes':
-        copy
+        copy.sort((a, b) => b.amount - a.amount)
+        break
+      case 'amountA
