@@ -197,4 +197,6 @@ class App extends React.Component {
         break
       case 'typeDes':
         copy.sort((a, b) => b.type[0].charCodeAt() - a.type[0].charCodeAt())
-        b
+        break
+      case 'typeAsc':
+        copy.sort((a, b) =>
