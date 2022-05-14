@@ -212,4 +212,6 @@ class App extends React.Component {
         )
         break
       default:
-        copy.s
+        copy.sort((a, b) => a.date - b.date)
+    }
+    if (this.state.filtered
