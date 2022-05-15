@@ -216,4 +216,7 @@ class App extends React.Component {
     }
     if (this.state.filteredTransactions.length) {
       this.setState({filteredTransactions: copy})
-  
+    } else {
+      this.setState({transactions: copy})
+    }
+    retur
