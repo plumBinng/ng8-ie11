@@ -214,4 +214,6 @@ class App extends React.Component {
       default:
         copy.sort((a, b) => a.date - b.date)
     }
-    if (this.state.filtered
+    if (this.state.filteredTransactions.length) {
+      this.setState({filteredTransactions: copy})
+  
