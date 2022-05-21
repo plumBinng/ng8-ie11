@@ -225,4 +225,6 @@ class App extends React.Component {
   handleAccountNumberInput(event) {
     let accountNumber
     if (event.target.value !== 'all accounts') {
-      accountNumb
+      accountNumber = Number(event.target.value)
+    }
+    this.accountsData(
