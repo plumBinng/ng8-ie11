@@ -224,3 +224,5 @@ class App extends React.Component {
 
   handleAccountNumberInput(event) {
     let accountNumber
+    if (event.target.value !== 'all accounts') {
+      accountNumb
