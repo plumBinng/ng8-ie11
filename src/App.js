@@ -219,4 +219,8 @@ class App extends React.Component {
     } else {
       this.setState({transactions: copy})
     }
-    retur
+    return copy
+  }
+
+  handleAccountNumberInput(event) {
+    let accountNumber
