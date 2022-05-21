@@ -227,4 +227,8 @@ class App extends React.Component {
     if (event.target.value !== 'all accounts') {
       accountNumber = Number(event.target.value)
     }
-    this.accountsData(
+    this.accountsData(accountNumber)
+  }
+
+  handleSearchChange(event) {
+    this.s
