@@ -231,4 +231,6 @@ class App extends React.Component {
   }
 
   handleSearchChange(event) {
-    this.s
+    this.setState({
+      searchTerm: event.target.value
+    })
