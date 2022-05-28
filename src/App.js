@@ -239,4 +239,5 @@ class App extends React.Component {
   handleSearchSubmit(event) {
     let searchMatches
     if (this.state.filteredTransactions.length) {
-      searchMatches = this.sta
+      searchMatches = this.state.filteredTransactions.filter(transaction =>
+        transaction.de
