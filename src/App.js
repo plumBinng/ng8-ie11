@@ -234,3 +234,8 @@ class App extends React.Component {
     this.setState({
       searchTerm: event.target.value
     })
+  }
+
+  handleSearchSubmit(event) {
+    let searchMatches
+    if (t
