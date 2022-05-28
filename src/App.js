@@ -238,4 +238,5 @@ class App extends React.Component {
 
   handleSearchSubmit(event) {
     let searchMatches
-    if (t
+    if (this.state.filteredTransactions.length) {
+      searchMatches = this.sta
