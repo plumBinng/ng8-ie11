@@ -240,4 +240,6 @@ class App extends React.Component {
     let searchMatches
     if (this.state.filteredTransactions.length) {
       searchMatches = this.state.filteredTransactions.filter(transaction =>
-        transaction.de
+        transaction.description.includes(this.state.searchTerm)
+      )
+      
