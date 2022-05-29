@@ -243,4 +243,7 @@ class App extends React.Component {
         transaction.description.includes(this.state.searchTerm)
       )
       this.setState({
-        filteredTransa
+        filteredTransactions: searchMatches
+      })
+    } else {
+      searchMatches =
