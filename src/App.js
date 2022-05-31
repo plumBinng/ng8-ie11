@@ -246,4 +246,5 @@ class App extends React.Component {
         filteredTransactions: searchMatches
       })
     } else {
-      searchMatches =
+      searchMatches = this.state.transactions.filter(transaction =>
+    
