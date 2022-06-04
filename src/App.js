@@ -247,4 +247,6 @@ class App extends React.Component {
       })
     } else {
       searchMatches = this.state.transactions.filter(transaction =>
-    
+        transaction.description.includes(this.state.searchTerm)
+      )
+ 
