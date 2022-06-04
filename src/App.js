@@ -249,4 +249,6 @@ class App extends React.Component {
       searchMatches = this.state.transactions.filter(transaction =>
         transaction.description.includes(this.state.searchTerm)
       )
- 
+      this.setState({
+        filteredTransactions: searchMatches
+     
