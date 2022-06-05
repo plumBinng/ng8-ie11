@@ -251,4 +251,6 @@ class App extends React.Component {
       )
       this.setState({
         filteredTransactions: searchMatches
-     
+      })
+    }
+    if (this.state.noResults === true && searchMatches
