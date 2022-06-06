@@ -257,3 +257,6 @@ class App extends React.Component {
       this.setState({
         noResults: false
       })
+    } else if (searchMatches.length === 0) {
+      this.setState({
+   
