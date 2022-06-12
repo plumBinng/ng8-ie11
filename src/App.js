@@ -259,4 +259,8 @@ class App extends React.Component {
       })
     } else if (searchMatches.length === 0) {
       this.setState({
-   
+        noResults: true
+      })
+    }
+    this.setState({
+      searc
