@@ -266,4 +266,8 @@ class App extends React.Component {
       searchTerm: ''
     })
     event.preventDefault()
-    return searchMat
+    return searchMatches
+  }
+
+  handleSortInput(event) {
+    this.sortB
