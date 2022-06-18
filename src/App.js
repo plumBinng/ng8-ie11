@@ -263,4 +263,7 @@ class App extends React.Component {
       })
     }
     this.setState({
-      searc
+      searchTerm: ''
+    })
+    event.preventDefault()
+    return searchMat
