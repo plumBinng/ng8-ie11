@@ -270,4 +270,7 @@ class App extends React.Component {
   }
 
   handleSortInput(event) {
-    this.sortB
+    this.sortBy(event.target.value)
+  }
+
+  handleSubmitTime(unixFinalDateFrom, 
