@@ -273,4 +273,5 @@ class App extends React.Component {
     this.sortBy(event.target.value)
   }
 
-  handleSubmitTime(unixFinalDateFrom, 
+  handleSubmitTime(unixFinalDateFrom, unixFinalDateTo) {
+    let filteredTransactions = this.state.tra
