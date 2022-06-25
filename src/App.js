@@ -276,4 +276,5 @@ class App extends React.Component {
   handleSubmitTime(unixFinalDateFrom, unixFinalDateTo) {
     let filteredTransactions = this.state.transactions.filter(
       transaction =>
-        transaction.d
+        transaction.date <= unixFinalDateTo &&
+        transaction.date >=
