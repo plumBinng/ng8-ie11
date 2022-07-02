@@ -279,4 +279,5 @@ class App extends React.Component {
         transaction.date <= unixFinalDateTo &&
         transaction.date >= unixFinalDateFrom
     )
-    let filteredRangeFrom = this.convertUnixToD
+    let filteredRangeFrom = this.convertUnixToDate(unixFinalDateFrom)
+    let filteredRangeTo = this.convertUnixToDate
