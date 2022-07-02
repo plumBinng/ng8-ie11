@@ -286,4 +286,6 @@ class App extends React.Component {
       filteredRangeFrom: filteredRangeFrom,
       filteredRangeTo: filteredRangeTo
     })
-    if (this.state.noResults === tru
+    if (this.state.noResults === true && filteredTransactions.length) {
+      this.setState({
+        noResul
