@@ -284,4 +284,6 @@ class App extends React.Component {
     this.setState({
       filteredTransactions: filteredTransactions,
       filteredRangeFrom: filteredRangeFrom,
-      filtered
+      filteredRangeTo: filteredRangeTo
+    })
+    if (this.state.noResults === tru
