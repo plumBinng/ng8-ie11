@@ -282,4 +282,6 @@ class App extends React.Component {
     let filteredRangeFrom = this.convertUnixToDate(unixFinalDateFrom)
     let filteredRangeTo = this.convertUnixToDate(unixFinalDateTo)
     this.setState({
-      filteredTransactions: filtere
+      filteredTransactions: filteredTransactions,
+      filteredRangeFrom: filteredRangeFrom,
+      filtered
