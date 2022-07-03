@@ -288,4 +288,6 @@ class App extends React.Component {
     })
     if (this.state.noResults === true && filteredTransactions.length) {
       this.setState({
-        noResul
+        noResults: false
+      })
+    } else if (filteredTransactions.le
