@@ -295,3 +295,7 @@ class App extends React.Component {
         noResults: true
       })
     }
+    return filteredTransactions
+  }
+
+  resetTransactions(e
