@@ -298,4 +298,6 @@ class App extends React.Component {
     return filteredTransactions
   }
 
-  resetTransactions(e
+  resetTransactions(event) {
+    this.setState({
+      filteredTransactions: [],
