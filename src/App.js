@@ -301,3 +301,6 @@ class App extends React.Component {
   resetTransactions(event) {
     this.setState({
       filteredTransactions: [],
+      noResults: false
+    })
+    event.preventDefault()
