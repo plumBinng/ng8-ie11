@@ -304,3 +304,8 @@ class App extends React.Component {
       noResults: false
     })
     event.preventDefault()
+    return []
+  }
+
+  convertUnixToDate(date) {
+    let months = [
