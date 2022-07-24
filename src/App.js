@@ -323,4 +323,6 @@ class App extends React.Component {
       'Dec'
     ]
     date = new Date(date)
-    let year = date.
+    let year = date.getFullYear()
+    let month = months[date.getMonth()]
+    let d
