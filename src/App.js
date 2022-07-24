@@ -325,4 +325,6 @@ class App extends React.Component {
     date = new Date(date)
     let year = date.getFullYear()
     let month = months[date.getMonth()]
-    let d
+    let day = date.getDate()
+    let display = `${month}-${day}-${year}`
+    re
