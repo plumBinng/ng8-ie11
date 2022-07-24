@@ -314,3 +314,9 @@ class App extends React.Component {
       'Mar',
       'Apr',
       'May',
+      'Jun',
+      'Jul',
+      'Aug',
+      'Sep',
+      'Oct',
+  
