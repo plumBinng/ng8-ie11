@@ -319,4 +319,8 @@ class App extends React.Component {
       'Aug',
       'Sep',
       'Oct',
-  
+      'Nov',
+      'Dec'
+    ]
+    date = new Date(date)
+    let year = date.
