@@ -327,4 +327,9 @@ class App extends React.Component {
     let month = months[date.getMonth()]
     let day = date.getDate()
     let display = `${month}-${day}-${year}`
-    re
+    return display
+  }
+
+  render() {
+    return (
+      <div className="App
