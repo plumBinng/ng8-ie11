@@ -336,4 +336,6 @@ class App extends React.Component {
         <Navbar handleBrandClick={this.resetTransactions} />
         {this.state.userId === 0 ? (
           <div>
-            <Wel
+            <Welcome />
+            <UserIdButton handleClick={this.getUserId} />
+        
