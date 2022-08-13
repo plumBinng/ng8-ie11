@@ -342,4 +342,5 @@ class App extends React.Component {
         ) : (
           <div>
             <NotYou />
-      
+            <div className="buttons">
+              <UserIdButton
