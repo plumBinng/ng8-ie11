@@ -334,4 +334,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar handleBrandClick={this.resetTransactions} />
-     
+        {this.state.userId === 0 ? (
+          <div>
+            <Wel
