@@ -338,4 +338,8 @@ class App extends React.Component {
           <div>
             <Welcome />
             <UserIdButton handleClick={this.getUserId} />
-        
+          </div>
+        ) : (
+          <div>
+            <NotYou />
+      
