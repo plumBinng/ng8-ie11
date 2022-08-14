@@ -344,4 +344,7 @@ class App extends React.Component {
             <NotYou />
             <div className="buttons">
               <UserIdButton handleClick={this.getUserId} />
-            </
+            </div>
+            <Container>
+              <Row>
+                <Filter
