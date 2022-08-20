@@ -348,4 +348,6 @@ class App extends React.Component {
             <Container>
               <Row>
                 <FilterAccountForm
-                  handleAccountNumberInput={this.handleAccoun
+                  handleAccountNumberInput={this.handleAccountNumberInput}
+                  accounts={this.state.accounts}
+   
