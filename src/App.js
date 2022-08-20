@@ -354,4 +354,6 @@ class App extends React.Component {
                 <FilterByKeyword
                   handleSearchSubmit={this.handleSearchSubmit}
                   searchTerm={this.state.searchTerm}
-                  handleSearchChange={this
+                  handleSearchChange={this.handleSearchChange}
+                />
+              </
