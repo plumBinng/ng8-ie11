@@ -352,4 +352,5 @@ class App extends React.Component {
                   accounts={this.state.accounts}
                 />
                 <FilterByKeyword
-                  handleS
+                  handleSearchSubmit={this.handleSearchSubmit}
+                  searchTerm={this.s
