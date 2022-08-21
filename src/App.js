@@ -360,4 +360,4 @@ class App extends React.Component {
             </Container>
             <Container>
               <Row>
- 
+                <SortByDropdown handleSortInput={this.handleSort
