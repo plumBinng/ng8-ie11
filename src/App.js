@@ -360,4 +360,5 @@ class App extends React.Component {
             </Container>
             <Container>
               <Row>
-                <SortByDropdown handleSortInput={this.handleSort
+                <SortByDropdown handleSortInput={this.handleSortInput} />
+                <DateForm handleSubmitTime={this.handleSub
