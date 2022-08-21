@@ -356,4 +356,8 @@ class App extends React.Component {
                   searchTerm={this.state.searchTerm}
                   handleSearchChange={this.handleSearchChange}
                 />
-              </
+              </Row>
+            </Container>
+            <Container>
+              <Row>
+ 
