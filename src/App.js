@@ -364,4 +364,6 @@ class App extends React.Component {
                 <DateForm handleSubmitTime={this.handleSubmitTime} />
               </Row>
             </Container>
-    
+            <ResetButton resetTransactions={this.resetTransactions} />
+
+ 
