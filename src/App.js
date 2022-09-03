@@ -366,4 +366,4 @@ class App extends React.Component {
             </Container>
             <ResetButton resetTransactions={this.resetTransactions} />
 
- 
+            {this.state.noResults ? <NoResults /
