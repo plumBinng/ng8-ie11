@@ -369,4 +369,6 @@ class App extends React.Component {
             {this.state.noResults ? <NoResults /> : ' '}
 
             {this.state.filteredTransactions.length ? (
- 
+              <div>
+                <DisplayRange
+           
