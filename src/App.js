@@ -373,4 +373,6 @@ class App extends React.Component {
                 <DisplayRange
                   selectedAccount={this.state.selectedAccount}
                   filteredRangeFrom={this.state.filteredRangeFrom}
-                  filteredRangeTo={this.state.filteredRange
+                  filteredRangeTo={this.state.filteredRangeTo}
+                />
+                <Transacti
