@@ -371,4 +371,5 @@ class App extends React.Component {
             {this.state.filteredTransactions.length ? (
               <div>
                 <DisplayRange
-           
+                  selectedAccount={this.state.selectedAccount}
+          
