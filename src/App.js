@@ -372,4 +372,5 @@ class App extends React.Component {
               <div>
                 <DisplayRange
                   selectedAccount={this.state.selectedAccount}
-          
+                  filteredRangeFrom={this.state.filteredRangeFrom}
+ 
