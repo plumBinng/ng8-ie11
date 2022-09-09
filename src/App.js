@@ -375,4 +375,5 @@ class App extends React.Component {
                   filteredRangeFrom={this.state.filteredRangeFrom}
                   filteredRangeTo={this.state.filteredRangeTo}
                 />
-                <Transacti
+                <Transactions
+                  allTransactions={this.state.filteredTra
