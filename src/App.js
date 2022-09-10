@@ -381,4 +381,5 @@ class App extends React.Component {
               </div>
             ) : (
               <div>
-                {this.state.trans
+                {this.state.transactions.length ? (
+                  <DisplayAll selectedA
