@@ -379,4 +379,6 @@ class App extends React.Component {
                   allTransactions={this.state.filteredTransactions}
                 />
               </div>
-      
+            ) : (
+              <div>
+                {this.state.trans
