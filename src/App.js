@@ -382,4 +382,6 @@ class App extends React.Component {
             ) : (
               <div>
                 {this.state.transactions.length ? (
-                  <DisplayAll selectedA
+                  <DisplayAll selectedAccount={this.state.selectedAccount} />
+                ) : (
+    
