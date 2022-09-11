@@ -386,4 +386,5 @@ class App extends React.Component {
                 ) : (
                   ' '
                 )}
-           
+                <LineChart
+                  selectedAccount={t
