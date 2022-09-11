@@ -388,4 +388,6 @@ class App extends React.Component {
                 )}
                 <LineChart
                   selectedAccount={this.state.selectedAccount}
-                  transactions=
+                  transactions={this.state.chartTransactions}
+                />
+             
