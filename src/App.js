@@ -390,4 +390,5 @@ class App extends React.Component {
                   selectedAccount={this.state.selectedAccount}
                   transactions={this.state.chartTransactions}
                 />
-             
+                <Transactions allTransactions={this.state.transactions} />
+       
