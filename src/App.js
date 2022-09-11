@@ -387,4 +387,5 @@ class App extends React.Component {
                   ' '
                 )}
                 <LineChart
-                  selectedAccount={t
+                  selectedAccount={this.state.selectedAccount}
+                  transactions=
