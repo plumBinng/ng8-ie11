@@ -391,4 +391,8 @@ class App extends React.Component {
                   transactions={this.state.chartTransactions}
                 />
                 <Transactions allTransactions={this.state.transactions} />
-       
+              </div>
+            )}
+          </div>
+        )}
+   
