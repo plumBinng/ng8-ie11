@@ -395,4 +395,9 @@ class App extends React.Component {
             )}
           </div>
         )}
-   
+      </div>
+    )
+  }
+}
+
+export default App
