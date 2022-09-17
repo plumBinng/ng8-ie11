@@ -83,3 +83,70 @@ describe('<App /> component', () => {
         {
           id: 3,
           category: 'supplies',
+          type: 'ACH In',
+          origin_account: 5432,
+          beneficiary_account: 2345,
+          amount: 879,
+          description: 'chairs',
+          initiator_id: 3,
+          approver_id: 2,
+          company_id: 1,
+          date: 1557187200000
+        },
+        {
+          id: 5,
+          category: 'maintenance',
+          type: 'Internal Transfer',
+          origin_account: 1234,
+          beneficiary_account: 2345,
+          amount: 145,
+          description: 'paper towels',
+          initiator_id: 3,
+          approver_id: 1,
+          company_id: 1,
+          date: 1552089600000
+        },
+        {
+          id: 25,
+          category: 'maintenance',
+          type: 'ACH In',
+          origin_account: 8542,
+          beneficiary_account: 2345,
+          amount: 134,
+          description: 'paper towels',
+          initiator_id: 3,
+          approver_id: 1,
+          company_id: 1,
+          date: 1554681600000
+        }
+      ]
+      wrapper.setState({allTransactions: testTransactions})
+      let accounts = wrapper.instance().initializeAccounts()
+      accounts = Array.from(accounts).sort()
+      expect(accounts[0]).to.equal(1234)
+      expect(accounts[1]).to.equal(2345)
+      let accountsStateArray = Array.from(wrapper.state().accounts).sort()
+      expect(accountsStateArray[0]).to.equal(1234)
+      expect(accountsStateArray[1]).to.equal(2345)
+    })
+  })
+
+  describe('getting account data', () => {
+    it('populates with account data for all accounts', () => {
+      const wrapper = shallow(<App />)
+      const testTransactions = [
+        {
+          id: 7,
+          category: 'utilities',
+          type: 'Wire Out',
+          origin_account: 3456,
+          beneficiary_account: 9453,
+          amount: 123,
+          description: 'electric bill',
+          initiator_id: 5,
+          approver_id: 4,
+          company_id: 2,
+          date: 1551571200000
+        },
+        {
+          id: 8,
