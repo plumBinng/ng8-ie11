@@ -150,3 +150,76 @@ describe('<App /> component', () => {
         },
         {
           id: 8,
+          category: 'supplies',
+          type: 'ACH In',
+          origin_account: 987,
+          beneficiary_account: 4567,
+          amount: 344,
+          description: 'paper towels',
+          initiator_id: 6,
+          approver_id: 5,
+          company_id: 2,
+          date: 1550275200000
+        },
+        {
+          id: 10,
+          category: 'maintenance',
+          type: 'Internal Transfer',
+          origin_account: 4567,
+          beneficiary_account: 3456,
+          amount: 234,
+          description: 'paper towels',
+          initiator_id: 5,
+          approver_id: 6,
+          company_id: 2,
+          date: 1547683200000
+        },
+        {
+          id: 29,
+          category: 'supplies',
+          type: 'ACH In',
+          origin_account: 841,
+          beneficiary_account: 4567,
+          amount: 123,
+          description: 'paper towels',
+          initiator_id: 6,
+          approver_id: 5,
+          company_id: 2,
+          date: 1546732800000
+        },
+        {
+          id: 40,
+          category: 'maintenance',
+          type: 'Internal Transfer',
+          origin_account: 4567,
+          beneficiary_account: 3456,
+          amount: 342,
+          description: 'paper towels',
+          initiator_id: 5,
+          approver_id: 6,
+          company_id: 2,
+          date: 1551830400000
+        }
+      ]
+      testTransactions.sort((a, b) => a.date - b.date)
+      wrapper.setState({allTransactions: testTransactions})
+      let transactions = wrapper.instance().accountsData()
+      expect(transactions[0].balance).to.equal(344)
+      expect(transactions[4].balance).to.equal(123)
+    })
+
+    it('populates with account data for specific account', () => {
+      const wrapper = shallow(<App />)
+      const testTransactions = [
+        {
+          id: 7,
+          category: 'utilities',
+          type: 'Wire Out',
+          origin_account: 3456,
+          beneficiary_account: 9453,
+          amount: 123,
+          description: 'electric bill',
+          initiator_id: 5,
+          approver_id: 4,
+          company_id: 2,
+          date: 1551571200000
