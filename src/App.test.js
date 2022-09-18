@@ -417,3 +417,55 @@ describe('<App /> component', () => {
     it('filters out by input date interval', () => {
       const wrapper = shallow(<App />)
       const testTransactions = [
+        {
+          date: 1557187200000 //05/07/2019
+        },
+        {
+          date: 1554681600000 //04/08/2019
+        },
+        {
+          date: 1552089600000 //03/09/2019
+        }
+      ]
+      wrapper.setState({
+        transactions: testTransactions
+      })
+      let filteredTransactions = wrapper
+        .instance()
+        .handleSubmitTime(1553089500000, 1558681700000)
+      expect(filteredTransactions[0].date).to.equal(1557187200000)
+      expect(filteredTransactions[1].date).to.equal(1554681600000)
+    })
+
+    it('is an empty array with no matches if from date is after to date', () => {
+      const wrapper = shallow(<App />)
+      const testTransactions = [
+        {
+          date: 1557187200000 //05/07/2019
+        },
+        {
+          date: 1554681600000 //04/08/2019
+        },
+        {
+          date: 1552089600000 //03/09/2019
+        }
+      ]
+      wrapper.setState({transactions: testTransactions})
+      let filteredTransactions = wrapper
+        .instance()
+        .handleSubmitTime(1558681700000, 1553089500000)
+      expect(filteredTransactions.length).to.equal(0)
+    })
+
+    it('is an empty array with no matches if an invalid range was given', () => {
+      const wrapper = shallow(<App />)
+      const testTransactions = [
+        {
+          date: 1557187200000 //05/07/2019
+        },
+        {
+          date: 1554681600000 //04/08/2019
+        },
+        {
+          date: 1552089600000 //03/09/2019
+        }
