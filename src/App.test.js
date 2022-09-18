@@ -469,3 +469,64 @@ describe('<App /> component', () => {
         {
           date: 1552089600000 //03/09/2019
         }
+      ]
+      wrapper.setState({transactions: testTransactions})
+      let filteredTransactions = wrapper
+        .instance()
+        .handleSubmitTime(155718800000, 155718800000)
+      expect(filteredTransactions.length).to.equal(0)
+    })
+
+    it('resets when clicked on view all history', () => {
+      const wrapper = shallow(<App />)
+      const testTransactions = [
+        {
+          date: 1557187200000 //05/07/2019
+        },
+        {
+          date: 1554681600000 //04/08/2019
+        },
+        {
+          date: 1552089600000 //03/09/2019
+        }
+      ]
+      wrapper.setState({
+        transactions: testTransactions
+      })
+      const fakeEvent = {preventDefault: () => {}}
+      let resetToAllTransactions = wrapper
+        .instance()
+        .resetTransactions(fakeEvent)
+      expect(resetToAllTransactions.length).to.equal(0)
+    })
+  })
+  describe('converts unix time to displayable time', () => {
+    it('from unix to month-day-year', () => {
+      const wrapper = shallow(<App />)
+      let todaysDate = wrapper.instance().convertUnixToDate(1567015460000)
+      let myBday = wrapper.instance().convertUnixToDate(776023200000)
+      expect(todaysDate).to.equal('Aug-28-2019')
+      expect(myBday).to.equal('Aug-4-1994')
+    })
+  })
+})
+
+describe('<Navbar /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<Navbar />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<Welcome /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<Welcome />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<UserIdButton /> component', () => {
+  it('renders 9 userId buttons', () => {
+    const wrapper = shallow(<UserIdButton />)
+    expect(wrapper.find('.userIdButton')).to.have.lengthOf(9)
+  })
