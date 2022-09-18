@@ -343,3 +343,77 @@ describe('<App /> component', () => {
       })
     })
     describe('sorts by amount', () => {
+      it('sorts by amount descending', () => {
+        const wrapper = shallow(<App />)
+        const testTransactions = [{amount: 100}, {amount: 50}, {amount: 300}]
+        wrapper.setState({transactions: testTransactions})
+        let transactions = wrapper.instance().sortBy('amountDes')
+        expect(transactions[0].amount).to.equal(300)
+        expect(transactions[2].amount).to.equal(50)
+      })
+      it('sorts by amount ascending', () => {
+        const wrapper = shallow(<App />)
+        const testTransactions = [{amount: 100}, {amount: 50}, {amount: 300}]
+        wrapper.setState({transactions: testTransactions})
+        let transactions = wrapper.instance().sortBy('amountAsc')
+        expect(transactions[0].amount).to.equal(50)
+        expect(transactions[2].amount).to.equal(300)
+      })
+    })
+    describe('sorts by type', () => {
+      it('sorts by type descending', () => {
+        const wrapper = shallow(<App />)
+        const testTransactions = [
+          {type: 'Internal Transfer'},
+          {type: 'Withdrawal'},
+          {type: 'ACh Out'}
+        ]
+        wrapper.setState({transactions: testTransactions})
+        let transactions = wrapper.instance().sortBy('typeDes')
+        expect(transactions[0].type).to.equal('Withdrawal')
+        expect(transactions[2].type).to.equal('ACh Out')
+      })
+      it('sorts by type ascending', () => {
+        const wrapper = shallow(<App />)
+        const testTransactions = [
+          {type: 'Internal Transfer'},
+          {type: 'Withdrawal'},
+          {type: 'ACh Out'}
+        ]
+        wrapper.setState({transactions: testTransactions})
+        let transactions = wrapper.instance().sortBy('typeAsc')
+        expect(transactions[0].type).to.equal('ACh Out')
+        expect(transactions[2].type).to.equal('Withdrawal')
+      })
+    })
+    describe('sorts by category', () => {
+      it('sorts by category descending', () => {
+        const wrapper = shallow(<App />)
+        const testTransactions = [
+          {category: 'rent'},
+          {category: 'groceries'},
+          {category: 'medical'}
+        ]
+        wrapper.setState({transactions: testTransactions})
+        let transactions = wrapper.instance().sortBy('categoryDes')
+        expect(transactions[0].category).to.equal('rent')
+        expect(transactions[2].category).to.equal('groceries')
+      })
+      it('sorts by category ascending', () => {
+        const wrapper = shallow(<App />)
+        const testTransactions = [
+          {category: 'rent'},
+          {category: 'groceries'},
+          {category: 'medical'}
+        ]
+        wrapper.setState({transactions: testTransactions})
+        let transactions = wrapper.instance().sortBy('categoryAsc')
+        expect(transactions[0].category).to.equal('groceries')
+        expect(transactions[2].category).to.equal('rent')
+      })
+    })
+  })
+  describe('filters out by date interval', () => {
+    it('filters out by input date interval', () => {
+      const wrapper = shallow(<App />)
+      const testTransactions = [
