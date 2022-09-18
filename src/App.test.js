@@ -530,3 +530,66 @@ describe('<UserIdButton /> component', () => {
     const wrapper = shallow(<UserIdButton />)
     expect(wrapper.find('.userIdButton')).to.have.lengthOf(9)
   })
+})
+
+describe('<NotYou /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<NotYou />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<FilterAccountForm /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<FilterAccountForm accounts={[]} />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<FilterByKeyword /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<FilterByKeyword />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<SortByDropdown /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<SortByDropdown />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<DateForm /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<DateForm />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<ResetButton /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<ResetButton />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<NoResults /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<NoResults />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<DisplayAll /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<DisplayAll />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<DisplayRange /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<DisplayRange />)
+    expect(wrapper.exists()).to.equal(true)
+  })
