@@ -282,3 +282,64 @@ describe('<App /> component', () => {
       wrapper.setState({allTransactions: testTransactions})
       let transactions = wrapper.instance().accountsData(3456)
       expect(transactions[0].balance).to.equal(453)
+      expect(transactions[2].balance).to.equal(234)
+    })
+  })
+  describe('searches by keyword', () => {
+    it('returns matches for input keyword', () => {
+      const wrapper = shallow(<App />)
+      const testTransactions = [
+        {description: 'groceries'},
+        {description: 'gym membership'},
+        {description: 'electric bill'}
+      ]
+      wrapper.setState({transactions: testTransactions, searchTerm: 'gym'})
+      const fakeEvent = {preventDefault: () => {}}
+      let searchMatches = wrapper.instance().handleSearchSubmit(fakeEvent)
+      expect(searchMatches[0].description).to.equal('gym membership')
+    })
+    it('is an empty array with no matches', () => {
+      const wrapper = shallow(<App />)
+      const testTransactions = [
+        {description: 'groceries'},
+        {description: 'gym membership'},
+        {description: 'electric bill'}
+      ]
+      wrapper.setState({transactions: testTransactions, searchTerm: 'internet'})
+      const fakeEvent = {preventDefault: () => {}}
+      let searchMatches = wrapper.instance().handleSearchSubmit(fakeEvent)
+      expect(searchMatches.length).to.equal(0)
+    })
+    it('resets when clicked on view all history', () => {
+      const wrapper = shallow(<App />)
+      wrapper.setState({filteredTransactions: ['searchMatch1', 'searchMatch2']})
+      const fakeEvent = {
+        preventDefault: () => {}
+      }
+      let resetToAllTransactions = wrapper
+        .instance()
+        .resetTransactions(fakeEvent)
+      expect(resetToAllTransactions.length).to.equal(0)
+    })
+  })
+
+  describe('sorts transactions by various criteria', () => {
+    describe('sorts by date', () => {
+      it('sorts by date descending', () => {
+        const wrapper = shallow(<App />)
+        const testTransactions = [{date: 100}, {date: 50}, {date: 300}]
+        wrapper.setState({transactions: testTransactions})
+        let transactions = wrapper.instance().sortBy('dateDes')
+        expect(transactions[0].date).to.equal(300)
+        expect(transactions[2].date).to.equal(50)
+      })
+      it('sorts by date ascending', () => {
+        const wrapper = shallow(<App />)
+        const testTransactions = [{date: 100}, {date: 50}, {date: 300}]
+        wrapper.setState({transactions: testTransactions})
+        let transactions = wrapper.instance().sortBy('dateAsc')
+        expect(transactions[0].date).to.equal(50)
+        expect(transactions[2].date).to.equal(300)
+      })
+    })
+    describe('sorts by amount', () => {
