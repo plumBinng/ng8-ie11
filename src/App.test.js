@@ -593,3 +593,70 @@ describe('<DisplayRange /> component', () => {
     const wrapper = shallow(<DisplayRange />)
     expect(wrapper.exists()).to.equal(true)
   })
+})
+
+describe('<LineChart /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<LineChart transactions={[]} />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+})
+
+describe('<Transactions /> component', () => {
+  it('renders', () => {
+    const wrapper = shallow(<Transactions allTransactions={[]} />)
+    expect(wrapper.exists()).to.equal(true)
+  })
+  it('renders all list items', () => {
+    let allTransactions = [
+      {
+        amount: 879,
+        balance: 1013,
+        beneficiary_account: 2345,
+        category: 'supplies',
+        date: 1557187200000,
+        description: 'chairs',
+        id: 3,
+        origin_account: 5432,
+        type: 'ACH In'
+      },
+      {
+        amount: 134,
+        balance: 134,
+        beneficiary_account: 2345,
+        category: 'maintenance',
+        date: 1554681600000,
+        description: 'paper towels',
+        id: 25,
+        origin_account: 8542,
+        type: 'ACH In'
+      },
+      {
+        amount: 145,
+        balance: 0,
+        beneficiary_account: 2345,
+        category: 'maintenance',
+        date: 1552089600000,
+        description: 'paper towels',
+        id: 5,
+        origin_account: 1234,
+        type: 'Internal Transfer'
+      }
+    ]
+    const wrapper = shallow(<Transactions allTransactions={allTransactions} />)
+    expect(wrapper.find('.transaction')).to.have.lengthOf(3)
+  })
+
+  describe('<ArrowUp /> component', () => {
+    it('renders', () => {
+      const wrapper = shallow(<ArrowUp />)
+      expect(wrapper.exists()).to.equal(true)
+    })
+  })
+  describe('<ArrowDown /> component', () => {
+    it('renders', () => {
+      const wrapper = shallow(<ArrowDown />)
+      expect(wrapper.exists()).to.equal(true)
+    })
+  })
+})
