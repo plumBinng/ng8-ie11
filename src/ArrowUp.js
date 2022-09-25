@@ -4,3 +4,6 @@ const ArrowUp = props => (
     height="15px"
     width="15px"
     aria-hidden="true"
+    focusable="false"
+    data-prefix="far"
+    data-icon="
