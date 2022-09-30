@@ -6,4 +6,6 @@ const ArrowUp = props => (
     aria-hidden="true"
     focusable="false"
     data-prefix="far"
-    data-icon="
+    data-icon="arrow-alt-circle-up"
+    role="img"
+    xmlns="http://www.w3.or
