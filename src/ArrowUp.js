@@ -12,4 +12,5 @@ const ArrowUp = props => (
     viewBox="0 0 512 512"
   >
     <path
-      fill="#9
+      fill="#94de83"
+      d="M256 504c137 0 248-111 248-248S393 8 256 8 8 119 8 256s111
