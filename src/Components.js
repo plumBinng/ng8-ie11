@@ -11,4 +11,6 @@ import ResetButton from './ResetButton'
 import NoResults from './NoResults'
 import DisplayRange from './DisplayRange'
 import DisplayAll from './DisplayAll'
-import Tran
+import Transactions from './Transactions'
+import ArrowUp from './ArrowUp'
+import ArrowDo
