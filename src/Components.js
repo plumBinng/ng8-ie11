@@ -9,4 +9,6 @@ import SortByDropdown from './SortByDropdown'
 import LineChart from './LineChart'
 import ResetButton from './ResetButton'
 import NoResults from './NoResults'
-import DisplayRange from './
+import DisplayRange from './DisplayRange'
+import DisplayAll from './DisplayAll'
+import Tran
