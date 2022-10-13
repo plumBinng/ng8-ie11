@@ -13,4 +13,10 @@ import DisplayRange from './DisplayRange'
 import DisplayAll from './DisplayAll'
 import Transactions from './Transactions'
 import ArrowUp from './ArrowUp'
-import ArrowDo
+import ArrowDown from './ArrowDown'
+
+export {
+  Navbar,
+  Welcome,
+  NotYou,
+  UserIdButton,
