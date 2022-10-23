@@ -1,2 +1,4 @@
 import React from 'react'
-const DisplayRange
+const DisplayRange = props => (
+  <p className="displaying">
+    Currently 
