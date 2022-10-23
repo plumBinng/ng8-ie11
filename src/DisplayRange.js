@@ -1,4 +1,5 @@
 import React from 'react'
 const DisplayRange = props => (
   <p className="displaying">
-    Currently 
+    Currently displaying transactions for{' '}
+    <strong>{props.selectedA
