@@ -3,4 +3,7 @@ const DisplayRange = props => (
   <p className="displaying">
     Currently displaying transactions for{' '}
     <strong>{props.selectedAccount}</strong> from{' '}
-    <strong>{props.filteredRangeF
+    <strong>{props.filteredRangeFrom}</strong> to{' '}
+    <strong>{props.filteredRangeTo}</strong>
+  </p>
+)
