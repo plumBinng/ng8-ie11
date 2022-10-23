@@ -184,3 +184,11 @@ class DateForm extends React.Component {
                 </Col>
               </Row>
             </Container>
+          </Form>
+        </div>
+      </Col>
+    )
+  }
+}
+
+export default DateForm
