@@ -7,3 +7,5 @@ const DisplayRange = props => (
     <strong>{props.filteredRangeTo}</strong>
   </p>
 )
+
+export default DisplayRange
