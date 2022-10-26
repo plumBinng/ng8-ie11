@@ -5,4 +5,6 @@ const FilterAccountForm = props => {
   return (
     <Col sm={4}>
       <Form>
-        <Form.Lab
+        <Form.Label>Filter by Account: </Form.Label>
+        <Form.Control
+          as="s
