@@ -7,4 +7,6 @@ const FilterAccountForm = props => {
       <Form>
         <Form.Label>Filter by Account: </Form.Label>
         <Form.Control
-          as="s
+          as="select"
+          name="accountNumber"
+          onChange={props.
