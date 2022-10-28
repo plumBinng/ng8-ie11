@@ -19,4 +19,10 @@ const FilterAccountForm = props => {
                 {account}
               </option>
             ))}
-        </Form.Control
+        </Form.Control>
+      </Form>
+    </Col>
+  )
+}
+
+export default FilterAccountFor
