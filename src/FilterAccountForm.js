@@ -15,4 +15,5 @@ const FilterAccountForm = props => {
             .concat([...props.accounts])
             .concat(['all accounts'])
             .map(account => (
-             
+              <option key={Math.random()} value={account}>
+                {account}
