@@ -13,4 +13,6 @@ const FilterAccountForm = props => {
         >
           {['Choose An Account']
             .concat([...props.accounts])
-            .c
+            .concat(['all accounts'])
+            .map(account => (
+             
