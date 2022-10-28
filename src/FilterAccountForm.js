@@ -17,3 +17,6 @@ const FilterAccountForm = props => {
             .map(account => (
               <option key={Math.random()} value={account}>
                 {account}
+              </option>
+            ))}
+        </Form.Control
