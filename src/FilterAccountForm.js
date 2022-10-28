@@ -25,4 +25,4 @@ const FilterAccountForm = props => {
   )
 }
 
-export default FilterAccountFor
+export default FilterAccountForm
