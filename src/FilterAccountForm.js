@@ -11,4 +11,6 @@ const FilterAccountForm = props => {
           name="accountNumber"
           onChange={props.handleAccountNumberInput}
         >
-          {['Cho
+          {['Choose An Account']
+            .concat([...props.accounts])
+            .c
