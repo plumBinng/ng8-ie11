@@ -13,4 +13,7 @@ const FilterByKeyword = props => (
           onChange={props.handleSearchChange}
         ></Form.Control>
         <Col sm={2}>
-          <Form.Control type="submi
+          <Form.Control type="submit" value="Submit" />
+        </Col>
+      </div>
+    </Fo
