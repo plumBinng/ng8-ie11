@@ -16,4 +16,8 @@ const FilterByKeyword = props => (
           <Form.Control type="submit" value="Submit" />
         </Col>
       </div>
-    </Fo
+    </Form>
+  </Col>
+)
+
+export default FilterByKeyword
