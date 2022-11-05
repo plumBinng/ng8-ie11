@@ -9,4 +9,6 @@ const FilterByKeyword = props => (
         <Form.Control
           placeholder="Enter Description Search Term Here"
           type="text"
-          value={props.searchTe
+          value={props.searchTerm}
+          onChange={props.handleSearchChange}
+        ></Form.Co
