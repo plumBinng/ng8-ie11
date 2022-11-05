@@ -6,3 +6,5 @@ const FilterByKeyword = props => (
     <Form onSubmit={props.handleSearchSubmit}>
       <Form.Label>Filter Using Keyword: </Form.Label>
       <div className="searchBy">
+        <Form.Control
+          placeholder="Enter Description Search Ter
