@@ -7,4 +7,6 @@ const FilterByKeyword = props => (
       <Form.Label>Filter Using Keyword: </Form.Label>
       <div className="searchBy">
         <Form.Control
-          placeholder="Enter Description Search Ter
+          placeholder="Enter Description Search Term Here"
+          type="text"
+          value={props.searchTe
