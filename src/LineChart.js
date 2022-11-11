@@ -5,4 +5,5 @@ import {Container} from 'react-bootstrap'
 class LineChart extends React.Component {
   render() {
     let label = this.props.selectedAccount
-    let labels = this.props.transactions.map(x 
+    let labels = this.props.transactions.map(x => x.displayDate).reverse()
+    let balance = this.props.transactions.map(x =>
