@@ -4,4 +4,5 @@ import {Container} from 'react-bootstrap'
 
 class LineChart extends React.Component {
   render() {
-    let label = this.props.select
+    let label = this.props.selectedAccount
+    let labels = this.props.transactions.map(x 
