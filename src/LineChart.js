@@ -8,4 +8,8 @@ class LineChart extends React.Component {
     let labels = this.props.transactions.map(x => x.displayDate).reverse()
     let balance = this.props.transactions.map(x => x.balance).reverse()
     const data = {
-      labels: l
+      labels: labels,
+      datasets: [
+        {
+          label: label,
+          fill: fals
