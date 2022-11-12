@@ -17,4 +17,6 @@ class LineChart extends React.Component {
           backgroundColor: 'rgba(75,192,192,0.4)',
           borderColor: 'rgba(75,192,192,1)',
           borderCapStyle: 'butt',
-          bor
+          borderDash: [],
+          borderDashOffset: 0.0,
+   
