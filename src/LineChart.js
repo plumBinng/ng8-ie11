@@ -19,4 +19,5 @@ class LineChart extends React.Component {
           borderCapStyle: 'butt',
           borderDash: [],
           borderDashOffset: 0.0,
-   
+          borderJoinStyle: 'miter',
+          pointBorder
