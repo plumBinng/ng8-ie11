@@ -20,4 +20,5 @@ class LineChart extends React.Component {
           borderDash: [],
           borderDashOffset: 0.0,
           borderJoinStyle: 'miter',
-          pointBorder
+          pointBorderColor: 'rgba(75,192,192,1)',
+          pointBackgroundCol
