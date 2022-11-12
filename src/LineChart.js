@@ -12,4 +12,6 @@ class LineChart extends React.Component {
       datasets: [
         {
           label: label,
-          fill: fals
+          fill: false,
+          lineTension: 0.1,
+          backgroundColor: 'rgba
