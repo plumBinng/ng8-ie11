@@ -23,4 +23,5 @@ class LineChart extends React.Component {
           pointBorderColor: 'rgba(75,192,192,1)',
           pointBackgroundColor: '#fff',
           pointBorderWidth: 1,
-          pointH
+          pointHoverRadius: 5,
+          pointHoverBackgroundColor: 'rgba(75,192,192
