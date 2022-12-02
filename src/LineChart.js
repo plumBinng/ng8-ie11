@@ -30,4 +30,9 @@ class LineChart extends React.Component {
           pointRadius: 1,
           pointHitRadius: 10,
           data: balance
-   
+        }
+      ]
+    }
+    return (
+      <Container className="chart">
+  
