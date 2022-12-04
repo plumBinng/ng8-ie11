@@ -39,4 +39,9 @@ class LineChart extends React.Component {
           <Line data={data} />
           <p>Balance History</p>
         </div>
-      </Contai
+      </Container>
+    )
+  }
+}
+
+export default LineChart
