@@ -4,4 +4,5 @@ import Navbar from 'react-bootstrap/Navbar'
 const NavBar = props => {
   return (
     <div className="navBar">
-      <Navb
+      <Navbar bg="light">
+        <Navbar.Brand onClick={props.handleBrandClic
