@@ -1,4 +1,7 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 
-const
+const NavBar = props => {
+  return (
+    <div className="navBar">
+      <Navb
