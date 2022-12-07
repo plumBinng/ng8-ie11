@@ -7,4 +7,7 @@ const NavBar = props => {
       <Navbar bg="light">
         <Navbar.Brand onClick={props.handleBrandClick} href="/">
           <span className="blueText">
-            <str
+            <strong>Grasshopper</strong>
+          </span>{' '}
+          Bank
+  
