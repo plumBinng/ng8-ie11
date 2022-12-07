@@ -16,4 +16,4 @@ const NavBar = props => {
   )
 }
 
-export defa
+export default NavBar
