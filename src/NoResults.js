@@ -6,4 +6,4 @@ const NoResults = () => (
   </p>
 )
 
-export default N
+export default NoResults
