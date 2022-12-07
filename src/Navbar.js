@@ -10,4 +10,10 @@ const NavBar = props => {
             <strong>Grasshopper</strong>
           </span>{' '}
           Bank
-  
+        </Navbar.Brand>
+      </Navbar>
+    </div>
+  )
+}
+
+export defa
