@@ -1,4 +1,6 @@
 import React from 'react'
 
 const NotYou = () => {
-  ret
+  return (
+    <p className="notYou">
+      Is this <em>not</e
