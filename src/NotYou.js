@@ -4,4 +4,9 @@ const NotYou = () => {
   return (
     <p className="notYou">
       Is this <em>not</em> your information? Please select another{' '}
-      <stro
+      <strong>user ID</strong>:
+    </p>
+  )
+}
+
+export default NotYou
