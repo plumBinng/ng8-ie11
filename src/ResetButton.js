@@ -5,4 +5,6 @@ const ResetButton = props => {
   return (
     <Button
       className="allTransactionsButton"
-     
+      variant="outline-primary"
+      onClick={props.resetTransactions}
+    
