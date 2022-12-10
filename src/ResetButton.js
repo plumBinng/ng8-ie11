@@ -13,4 +13,4 @@ const ResetButton = props => {
   )
 }
 
-export def
+export default ResetButton
