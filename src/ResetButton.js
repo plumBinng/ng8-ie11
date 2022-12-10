@@ -7,4 +7,10 @@ const ResetButton = props => {
       className="allTransactionsButton"
       variant="outline-primary"
       onClick={props.resetTransactions}
-    
+    >
+      Reset/See All Transactions
+    </Button>
+  )
+}
+
+export def
