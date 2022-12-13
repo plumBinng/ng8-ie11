@@ -5,4 +5,4 @@ const SortByDropdown = props => (
   <Col sm={4}>
     <Form>
       <Form.Label>Sort By:</Form.Label>
-      
+      <Form.Control as="select" name="sortBy" onChange={props.handleSortInp
