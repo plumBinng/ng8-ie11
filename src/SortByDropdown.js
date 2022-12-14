@@ -9,4 +9,6 @@ const SortByDropdown = props => (
         <option value="dateDes">Date Descending</option>
         <option value="dateAsc">Date Ascending</option>
         <option value="amountDes">Amount Descending</option>
-        <option value="amountAsc">Amount Ascending</option
+        <option value="amountAsc">Amount Ascending</option>
+        <option value="typeDes">Type Descending</option>
+        
