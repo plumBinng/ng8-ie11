@@ -8,4 +8,5 @@ const SortByDropdown = props => (
       <Form.Control as="select" name="sortBy" onChange={props.handleSortInput}>
         <option value="dateDes">Date Descending</option>
         <option value="dateAsc">Date Ascending</option>
-        <option val
+        <option value="amountDes">Amount Descending</option>
+  
