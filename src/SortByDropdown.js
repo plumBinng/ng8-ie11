@@ -11,4 +11,5 @@ const SortByDropdown = props => (
         <option value="amountDes">Amount Descending</option>
         <option value="amountAsc">Amount Ascending</option>
         <option value="typeDes">Type Descending</option>
-        
+        <option value="typeAsc">Type Ascending</option>
+     
