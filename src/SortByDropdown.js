@@ -19,4 +19,4 @@ const SortByDropdown = props => (
   </Col>
 )
 
-export default SortB
+export default SortByDropdown
