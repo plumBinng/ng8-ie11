@@ -14,4 +14,9 @@ const SortByDropdown = props => (
         <option value="typeAsc">Type Ascending</option>
         <option value="categoryDes">Category Descending</option>
         <option value="categoryAsc">Category Ascending</option>
-      <
+      </Form.Control>
+    </Form>
+  </Col>
+)
+
+export default SortB
