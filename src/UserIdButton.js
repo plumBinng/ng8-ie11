@@ -7,4 +7,5 @@ class UserIdButton extends React.Component {
     this.state = {}
   }
   render() {
-    let us
+    let userIds = new Array(9)
+    for (let i = 0; i < userIds.length; i
