@@ -8,4 +8,8 @@ class UserIdButton extends React.Component {
   }
   render() {
     let userIds = new Array(9)
-    for (let i = 0; i < userIds.length; i
+    for (let i = 0; i < userIds.length; i++) {
+      userIds[i] = i + 1
+    }
+    return (
+      <Con
