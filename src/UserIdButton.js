@@ -16,4 +16,6 @@ class UserIdButton extends React.Component {
         <Row className="justify-content-md-center">
           <Col xs={11} sm={8}>
             <div className="buttons">
-     
+              {userIds.map(userId => (
+                <Button
+ 
