@@ -19,4 +19,6 @@ class UserIdButton extends React.Component {
               {userIds.map(userId => (
                 <Button
                   variant="primary"
-                  size="lg
+                  size="lg"
+                  className="userIdButton"
+                  ke
