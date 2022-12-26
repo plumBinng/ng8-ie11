@@ -23,4 +23,6 @@ class UserIdButton extends React.Component {
                   className="userIdButton"
                   key={userId}
                   onClick={this.props.handleClick}
-                  
+                  value={userId}
+                >
+                  {u
