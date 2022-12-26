@@ -21,4 +21,6 @@ class UserIdButton extends React.Component {
                   variant="primary"
                   size="lg"
                   className="userIdButton"
-                  ke
+                  key={userId}
+                  onClick={this.props.handleClick}
+                  
