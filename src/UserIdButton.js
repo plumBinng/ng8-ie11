@@ -28,4 +28,7 @@ class UserIdButton extends React.Component {
                   {userId}
                 </Button>
               ))}
-         
+            </div>
+          </Col>
+        </Row>
+      </C
