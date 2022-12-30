@@ -31,4 +31,9 @@ class UserIdButton extends React.Component {
             </div>
           </Col>
         </Row>
-      </C
+      </Container>
+    )
+  }
+}
+
+export default UserIdButton
