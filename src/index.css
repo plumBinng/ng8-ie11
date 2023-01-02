@@ -42,3 +42,56 @@ code {
 }
 .userIdButton {
   border-radius: 80px;
+  background-color: #4bc0c0;
+  border: none;
+}
+
+.searchBy {
+  display: flex;
+  flex-direction: row;
+}
+
+.dateDropdowns {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.toLabel {
+  margin: 10px;
+}
+
+.yearDropdown {
+  margin-right: 5px;
+}
+
+.monthDropdown {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.dayDropdown {
+  margin-left: 5px;
+}
+
+.allTransactionsButton {
+  margin: 20px 20px 20px 20px;
+  border-color: #4bc0c0;
+  color: #4bc0c0;
+}
+
+.noResults {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.displaying {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.chart {
+  max-height: 50%;
+  max-width: 50%;
+  margin-bottom: 30px;
+}
