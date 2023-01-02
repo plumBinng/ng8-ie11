@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top: 50px;
+}
+
+.blueText {
+  color: #4bc0c0;
+}
+
+.pleaseSignIn {
+  font-size: 25px;
+}
+
+.notYou {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.userIdButton {
+  border-radius: 80px;
